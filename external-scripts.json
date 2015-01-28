@@ -1,13 +1,19 @@
 [
+  "hubot-devops-reactions",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
+  "hubot-humanity",
   "hubot-google-images",
   "hubot-google-translate",
+  "hubot-principles",
   "hubot-pugme",
   "hubot-maps",
+  "hubot-nationalrail",
   "hubot-redis-brain",
   "hubot-rules",
+  "hubot-seen",
   "hubot-shipit",
+  "hubot-tell",
   "hubot-youtube"
 ]
