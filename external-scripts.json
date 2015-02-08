@@ -12,6 +12,7 @@
   "hubot-nationalrail",
   "hubot-redis-brain",
   "hubot-rules",
+  "hubot-shipping-forecast",
   "hubot-seen",
   "hubot-shipit",
   "hubot-tell",
