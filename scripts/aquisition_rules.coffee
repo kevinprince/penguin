@@ -104,4 +104,7 @@ module.exports = (robot) ->
   regex = new RegExp('(?:^|\\s)(' + words.join('|') + ')(?:\\s|\\.|\\?|!|$)', 'i');
 
   robot.hear regex, (msg) ->
-    msg.send msg.random rules
+    dice = Math.floor(Math.random() * 6) + 1
+    msg.send dice
+    if dice == 6
+      msg.send msg.random rules
