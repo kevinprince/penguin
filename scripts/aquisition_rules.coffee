@@ -105,6 +105,5 @@ module.exports = (robot) ->
 
   robot.hear regex, (msg) ->
     dice = Math.floor(Math.random() * 6) + 1
-    msg.send dice
     if dice == 6
       msg.send msg.random rules
