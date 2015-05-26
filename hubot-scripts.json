@@ -7,6 +7,7 @@
   "darksky.coffee",
   "decide.coffee",
   "excuse.coffee",
+  "http-info.coffee",
   "kittens.coffee",
   "sudo.coffee",
   "time.coffee"
