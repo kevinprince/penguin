@@ -8,3 +8,6 @@ module.exports = (robot) ->
 
   robot.hear /explain #silex/i, (msg) ->
     msg.send "#silex is for beer, planes, boats and stupid ideas. If your looking for PHP help you probably want #silex-php"
+
+  robot.hear /snowstats/i, (msg) ->
+    msg.send "#silex-snow: BPScott: 1 / kevinprince: 18 / kreader: 0 / whoojemaflip 0"
