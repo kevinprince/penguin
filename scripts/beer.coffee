@@ -10,4 +10,4 @@ module.exports = (robot) ->
     msg.send "#silex is for beer, planes, boats and stupid ideas. If your looking for PHP help you probably want #silex-php"
 
   robot.hear /snowstats/i, (msg) ->
-    msg.send "#silex-snow: BPScott: 3 / kevinprince: 20 / kreader: 0 / whoojemaflip 0"
+    msg.send "#silex-snow: BPScott: 6 / kevinprince: 22 / kreader: 0 / Rumyra: 0 / whoojemaflip 0"
